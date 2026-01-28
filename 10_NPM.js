@@ -23,3 +23,4 @@ const flatarr = _.flattenDeep(item)
 console.log(flatarr)
 
 // gitignore is file that specifies which files are going to be ignored by the sourec control(these file contain not go on git)
+// we can not push node_module becaues of there huge size so we push package.json if we download repo run npm install it automatcilly install all dependency mention in package.json 
