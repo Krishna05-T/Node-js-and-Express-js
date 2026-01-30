@@ -21,6 +21,14 @@ const item = [1,[2, [3, [4]]]]
 
 const flatarr = _.flattenDeep(item)
 console.log(flatarr)
+console.log("hello world")
 
 // gitignore is file that specifies which files are going to be ignored by the sourec control(these file contain not go on git)
 // we can not push node_module becaues of there huge size so we push package.json if we download repo run npm install it automatcilly install all dependency mention in package.json 
+
+// Nodemon is a development tool that:
+//Automatically restarts the server
+//When files change
+
+
+// global install is node recommended use npx nodemon 10_NPM.js
